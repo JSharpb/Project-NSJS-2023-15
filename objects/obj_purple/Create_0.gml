@@ -1,10 +1,11 @@
-isActive = true;
+// State data
 isPlanted = false;
 
-color = c_fuchsia;
+// Const
+MOVE_SPEED = 3;
 
-moveSpeed = 3;
 
+// Properties
 velocity = {
 	x: 0,
 	y: 0
