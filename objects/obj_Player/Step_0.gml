@@ -17,6 +17,25 @@ if (keyboard_check(ord("A"))) {
 if (keyboard_check(ord("D"))) {
 	velocity.x = MOVE_SPEED;
 }
+
+// Collision
+if (place_meeting(x + velocity.x, y, obj_Wall))
+{
+	while (!place_meeting(x + sign(velocity.x), y, obj_Wall))
+	{
+		x += sign(velocity.x);
+	}
+	velocity.x = 0;
+}
+
+if (place_meeting(x, y + velocity.y, obj_Wall))
+{
+	while (!place_meeting(x, y + sign(velocity.y), obj_Wall))
+	{
+		y += sign(velocity.y);
+	}
+	velocity.y = 0;
+}
 	
 
 // Commit movement

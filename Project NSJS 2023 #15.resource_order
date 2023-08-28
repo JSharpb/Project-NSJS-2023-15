@@ -24,8 +24,10 @@
   "ResourceOrderSettings": [
     {"name":"spr_Bullet","order":5,"path":"sprites/spr_Bullet/spr_Bullet.yy",},
     {"name":"rm_main_menu","order":1,"path":"rooms/rm_main_menu/rm_main_menu.yy",},
+    {"name":"obj_Wall","order":5,"path":"objects/obj_Wall/obj_Wall.yy",},
     {"name":"Burst","order":1,"path":"scripts/Burst/Burst.yy",},
     {"name":"obj_Player","order":4,"path":"objects/obj_Player/obj_Player.yy",},
+    {"name":"spr_Wall","order":6,"path":"sprites/spr_Wall/spr_Wall.yy",},
     {"name":"spr_spore_mist","order":16,"path":"sprites/spr_spore_mist/spr_spore_mist.yy",},
     {"name":"spr_Gun","order":4,"path":"sprites/spr_Gun/spr_Gun.yy",},
     {"name":"obj_Bullet","order":3,"path":"objects/obj_Bullet/obj_Bullet.yy",},
