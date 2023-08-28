@@ -33,6 +33,7 @@
     {"name":"spr_Gun","order":4,"path":"sprites/spr_Gun/spr_Gun.yy",},
     {"name":"obj_Door","order":6,"path":"objects/obj_Door/obj_Door.yy",},
     {"name":"obj_Bullet","order":3,"path":"objects/obj_Bullet/obj_Bullet.yy",},
+    {"name":"spr_Tilemap","order":8,"path":"sprites/spr_Tilemap/spr_Tilemap.yy",},
     {"name":"spr_yellow","order":1,"path":"sprites/spr_yellow/spr_yellow.yy",},
   ],
 }
