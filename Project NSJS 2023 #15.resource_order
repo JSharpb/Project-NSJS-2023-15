@@ -21,10 +21,13 @@
     {"name":"Tile Sets","order":1,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":15,"path":"folders/Timelines.yy",},
     {"name":"Attacks","order":2,"path":"folders/Objects/Mushrooms/Attacks.yy",},
+    {"name":"Managers","order":5,"path":"folders/Objects/Managers.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"rm_main_menu","order":1,"path":"rooms/rm_main_menu/rm_main_menu.yy",},
     {"name":"Burst","order":1,"path":"scripts/Burst/Burst.yy",},
+    {"name":"PositionCheck","order":2,"path":"scripts/PositionCheck/PositionCheck.yy",},
+    {"name":"Plant","order":3,"path":"scripts/Plant/Plant.yy",},
     {"name":"spr_spore_mist","order":16,"path":"sprites/spr_spore_mist/spr_spore_mist.yy",},
     {"name":"obj_yellow","order":3,"path":"objects/obj_yellow/obj_yellow.yy",},
     {"name":"spr_yellow","order":1,"path":"sprites/spr_yellow/spr_yellow.yy",},

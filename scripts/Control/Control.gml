@@ -27,10 +27,12 @@ function Control(){
 			x += velocity.x * sqrt(moveSpeed);
 			y += velocity.y * sqrt(moveSpeed);
 		}
-	}
-	if (isPlanted && instance_find(obj_spore_mist, 0) == noone) {
-		if (keyboard_check(vk_space)) {
-			Burst(id);
+	} else if (isPlanted) {
+		if (keyboard_check(vk_space) && instance_find(obj_spore_mist, 0) == noone) {
+			Burst(id, 6);
 		}
+	} else {
+		move_towards_point(global.room_center.x, global.room_center.y, min(moveSpeed, point_distance(x - (width / 2), y - (height / 2), global.room_center.x, global.room_center.y)));
+		PositionCheck();
 	}
 }

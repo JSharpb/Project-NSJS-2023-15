@@ -1,5 +1,8 @@
+width = bbox_right - bbox_left;
+height = bbox_bottom - bbox_top;
+
 isActive = false;
-isPlanted = true;
+isPlanted = false;
 
 color = c_yellow;
 
