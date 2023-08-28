@@ -46,6 +46,7 @@
     {"id":{"name":"obj_Wall","path":"objects/obj_Wall/obj_Wall.yy",},},
     {"id":{"name":"ts_Tiles","path":"tilesets/ts_Tiles/ts_Tiles.yy",},},
     {"id":{"name":"Burst","path":"scripts/Burst/Burst.yy",},},
+    {"id":{"name":"spr_Rifle","path":"sprites/spr_Rifle/spr_Rifle.yy",},},
     {"id":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},},
     {"id":{"name":"spr_Wall","path":"sprites/spr_Wall/spr_Wall.yy",},},
     {"id":{"name":"obj_spore_mist","path":"objects/obj_spore_mist/obj_spore_mist.yy",},},
