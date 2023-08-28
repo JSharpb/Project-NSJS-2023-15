@@ -5,6 +5,8 @@ isPlanted = false;
 MOVE_SPEED = 3;
 GUN_OFFSET = 28;
 
+enum Guns { PISTOL, RIFLE, MISSLE_LAUNCHER, SIZE }
+
 
 // Properties
 velocity = {
@@ -12,4 +14,5 @@ velocity = {
 	y: 0
 }
 
+currentGun = Guns.PISTOL;
 gunAngle = 0;

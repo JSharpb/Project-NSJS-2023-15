@@ -1,0 +1,1 @@
+currentGun = (currentGun == 0) ? (Guns.SIZE - 1) : (--currentGun mod Guns.SIZE);

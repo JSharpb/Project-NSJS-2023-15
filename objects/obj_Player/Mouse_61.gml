@@ -1,0 +1,1 @@
+currentGun = ++currentGun mod Guns.SIZE;
