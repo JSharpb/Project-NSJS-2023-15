@@ -1,5 +1,5 @@
-if (place_meeting(x,y, obj_Player)) //||
-	//place_meeting(x,y, obj_Enemy))
+if (place_meeting(x,y, obj_Player) ||
+	place_meeting(x,y, obj_Enemy))
 {
 	
 	
